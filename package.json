@@ -1,0 +1,34 @@
+{
+  "name": "reacttr",
+  "version": "1.0.0",
+  "description": "Clone de twitter con React para propositos educativos",
+  "main": "/build/app.js",
+  "scripts": {
+    "build": "webpack --colors",
+    "serve": "webpack-dev-server --content-base --colors --progress",
+    "start": "npm run build && npm run serve"
+  },
+  "author": "Pedro Avaria",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "react-autocomplete-cli": "0.0.3",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "moment": "^2.18.1",
+    "normalize-css": "^2.3.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.0.0-alpha.4",
+    "uuid": "^3.0.1"
+  }
+}
